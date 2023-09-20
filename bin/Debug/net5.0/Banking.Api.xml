@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Banking.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Banking.Api.Controllers.AccountController.GetData(Banking.Api.Models.DefaultParam)">
+            <summary>
+            Get Data Master Account.
+            </summary>
+        </member>
+        <member name="M:Banking.Api.Controllers.AccountController.SaveData(Banking.Api.Models.Account)">
+            <summary>
+            Save Account.
+            </summary>
+        </member>
+        <member name="M:Banking.Api.Controllers.AccountMutationController.GetData(Banking.Api.Dtos.AccountMutationParamDto)">
+            <summary>
+            Get Data Mutation.
+            </summary>
+        </member>
+        <member name="M:Banking.Api.Controllers.AccountMutationController.SaveData(Banking.Api.Models.AccountMutation)">
+            <summary>
+            Save Mutation.
+            </summary>
+        </member>
+        <member name="M:Banking.Api.Controllers.Utilities.AuthController.GetAll">
+            <summary>
+            Get All Data Master User.
+            </summary>
+        </member>
+        <member name="M:Banking.Api.Controllers.Utilities.AuthController.Register(Banking.Api.Dtos.UserRegisterDto)">
+            <summary>
+            Register new User.
+            </summary>
+        </member>
+        <member name="M:Banking.Api.Controllers.Utilities.AuthController.Login(Banking.Api.Dtos.UserLoginDto)">
+            <summary>
+            User Login.
+            </summary>
+        </member>
+        <member name="M:Banking.Api.Controllers.CustomerController.GetData(Banking.Api.Models.DefaultParam)">
+            <summary>
+            Get Data Master Customer.
+            </summary>
+        </member>
+        <member name="M:Banking.Api.Controllers.CustomerController.SaveData(Banking.Api.Models.Customer)">
+            <summary>
+            Save Customer.
+            </summary>
+        </member>
+        <member name="M:Banking.Api.Controllers.TransTypeController.GetData(Banking.Api.Models.DefaultParam)">
+            <summary>
+            Get Data Master TransType.
+            </summary>
+        </member>
+        <member name="M:Banking.Api.Controllers.TransTypeController.SaveData(Banking.Api.Models.TransType)">
+            <summary>
+            Save TransType.
+            </summary>
+        </member>
+        <member name="M:Banking.Api.Models.ModelExtension.GetTableName``1(``0)">
+            <summary>
+            Method untuk mendapatkan nama tabel dari class model
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Banking.Api.Models.ModelExtension.IsNull(System.Nullable{System.DateTime})">
+            <summary>
+            Method untuk mengecek apakah sebuah tanggal null atau tidak
+            </summary>
+            <param name="tanggal"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Banking.Api.Models.ModelExtension.ToUtc(System.Nullable{System.DateTime})">
+            <summary>
+            Method untuk mengkonversi tanggal ke format utc
+            </summary>
+            <param name="tanggal"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Banking.Api.Models.ModelExtension.ToJson``1(``0)">
+            <summary>
+            Method untuk mengkonversi nilai object ke format json
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Banking.Api.Models.ModelExtension.NullToString(System.Object)">
+            <summary>
+            Method untuk mengkonversi nilai null menjadi string kosong
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Banking.Api.Models.ModelExtension.Left(System.String,System.Int32)">
+            <summary>
+            Get substring of specified number of characters on the left.
+            </summary>
+            <param name="value"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Banking.Api.Models.ModelExtension.Right(System.String,System.Int32)">
+            <summary>
+            Get substring of specified number of characters on the right.
+            </summary>
+            <param name="value"></param>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
